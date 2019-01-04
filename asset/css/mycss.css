@@ -1,0 +1,30 @@
+.result:nth-child(even){
+	background-color:#7788aa;color: #ffffff;
+}
+
+.result:hover{
+	box-shadow:-4px -4px 3px rgba(20%,20%,40%,0.5);
+	position: relative;
+	right: -1px;
+	top: -1px;
+}
+#test{
+   width:200px;
+  
+  background-color:#7FFFD4;
+  position:fixed;
+  right:0px;
+  bottom:0px;
+}
+#cart_header{
+  background-color:#ff3333;
+  color:white;
+  padding:5px 10px;
+  position:relative;
+  top:0;
+}
+
+#cart_header:hover{
+  background-color:#ff6666;
+  cursor:pointer;
+}
